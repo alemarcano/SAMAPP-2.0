@@ -1,0 +1,18 @@
+<div class='container'>
+	<h2>Informacion Profesor</h2>
+	<br/>
+	<ul>
+		<li><%=profesor.cedula%></li>
+		<li><%=profesor.nombre%></li>
+		<li><%=profesor.apellido%></li>
+		<li><%=profesor.email%></li>
+		<li><%=profesor.telefono%></li>
+		<li><%=profesor.carrera%></li>
+	</ul>
+	<br/>
+
+	<form action="/profesor/edit/<%=profesor.id%>" method="POST" accept-charset="utf-8">
+		<button type="submit" class="btn btn-success">Editar</button>
+	</form>
+
+</div>

@@ -1,0 +1,18 @@
+<div class='container'>
+	<h2>Informacion Estudiante</h2>
+	<br/>
+	<ul>
+		<li><%=estudiante.cedula%></li>
+		<li><%=estudiante.nombre%></li>
+		<li><%=estudiante.apellido%></li>
+		<li><%=estudiante.email%></li>
+		<li><%=estudiante.telefono%></li>
+		<li><%=estudiante.carrera%></li>
+	</ul>
+	<br/>
+
+	<form action="/estudiante/editEs/<%=estudiante.id%>" method="POST" accept-charset="utf-8">
+		<button type="submit" class="btn btn-success">Editar Estudiante</button>
+	</form>
+
+</div>

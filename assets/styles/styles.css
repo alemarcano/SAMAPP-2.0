@@ -1,0 +1,20 @@
+.users:hover{
+  text-decoration: none;
+}
+
+.users{
+  text-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+
+.btn-warning{
+  color: #FFFFFF!important;
+}
+
+.banner{
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+
+.features{
+  background-color: #efeff0;
+}
